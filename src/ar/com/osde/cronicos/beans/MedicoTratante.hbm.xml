@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.cronicos.beans.MedicoTratante" table="FARLIBDTA.MEDMTR00">
+		
+		<id name="codigo" unsaved-value="null" >
+			<column name="MEDTRA" not-null="true"/>
+			<generator class="increment"/>
+		</id>
+		
+		<property name="nombre">
+			<column name="MEDNOM" not-null="false"/>
+		</property>
+		
+		
+		<property name="tipoMatricula">
+			<column name="MEDTIP" not-null="false"/>
+		</property>
+		
+		
+		<property name="numeroMatricula">
+			<column name="MEDMAT" not-null="false"/>
+		</property>
+		
+		
+		<property name="provincia">
+			<column name="MEDPRO" not-null="false"/>
+		</property>
+		
+		<property name="numeroPrestador">
+			<column name="MEDPRE" not-null="false"/>
+		</property>
+		
+		<property name="telefono">
+			<column name="MEDTEL" not-null="false"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

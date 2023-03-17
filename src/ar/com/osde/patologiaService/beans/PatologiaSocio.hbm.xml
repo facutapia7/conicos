@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.patologiaService.common.entities.PatologiaSocio" table="FARLIBDTA.MEDSCR00" mutable="false">
+		
+		<composite-id>
+			<key-property name="codigo"    column="CODIBP"/>
+			<key-property name="codigoPat"   column="CODPAT"/>
+			<key-property name="vigDesde" column="DESPAT"/>
+		</composite-id>		
+		
+		<many-to-one name="patologia" column="CODPAT" 
+			lazy="false" class="ar.com.osde.patologiaService.common.entities.Patologia"  
+			insert="false" update="false" not-null="false">
+			 	
+		</many-to-one>
+		<!-- 
+		<property name="codigoPat">
+			<column name="CODPAT" />
+		</property>
+		
+		<property name="vigDesde">
+			<column name="DESPAT" />
+		</property>
+		
+		 -->
+           <property name="vigHasta">
+			<column name="HASPAT"/>
+			</property>
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.cronicos.beans.GatewayDiagnostico" table="FARLIBDTA.MEDSCR00">
+
+		<composite-id class="ar.com.osde.cronicos.beans.GatewayDiaEpiPK" name="gatePK">
+			<key-property name="nrobp"    column="CODIBP"/>
+			<key-property name="codigo"   column="CODPAT"/>
+			<key-property name="vigDesde" column="DESPAT"/>
+		</composite-id>		
+		
+		<property name="vigHasta">
+			<column name="HASPAT"/>
+		</property>
+
+		<property name="medicoID">
+			<column name="MEDTRA"/>
+		</property>
+
+		<property name="tramiteID">
+			<column name="IDTRAM"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

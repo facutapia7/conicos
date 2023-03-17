@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="GPI_TEMPLATE_APP" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>Carga de Patologias y Cronicas</display-name>
+
+  	<!-- DEFINICION DE SERVLETS -->   
+    
+	<servlet>
+		<servlet-name>bootstrap</servlet-name>
+		<servlet-class>ar.com.osde.framework.config.BootstrapServlet</servlet-class>
+		<init-param>
+			<param-name>application-config</param-name>
+			<param-value>/WEB-INF/app-config.xml</param-value>
+		</init-param>
+ 		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet>
+        <servlet-name>action</servlet-name>
+        <servlet-class>ar.com.osde.framework.struts.OsdeActionServlet</servlet-class>
+        <init-param>
+            <param-name>config</param-name>
+            <param-value>/WEB-INF/struts-config.xml</param-value>
+        </init-param>
+		<init-param> 
+			<param-name>debug</param-name> 
+			<param-value>3</param-value> 
+		</init-param> 
+		<init-param> 
+			<param-name>detail</param-name> 
+			<param-value>3</param-value> 
+		</init-param>
+		
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+	<context-param>
+		<description>Spring config file locations</description>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>WEB-INF/spring/application-root-spring.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class id="framework-spring-context-listener">
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+    
+  	<servlet>
+		<servlet-name>CXFServlet</servlet-name>
+		<servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+  	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CXFServlet</servlet-name>
+		<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
+    
+    <!-- Action Servlet Mapping -->
+    
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>/execute/*</url-pattern>
+    </servlet-mapping>
+
+  	<servlet-mapping>
+		<servlet-name>bootstrap</servlet-name>
+		<url-pattern>/info</url-pattern>
+	</servlet-mapping>	 
+    
+	<welcome-file-list>
+		<welcome-file>jsp/index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<jsp-config>
+	
+	<taglib>
+        <taglib-uri>/WEB-INF/tld/struts-logic.tld</taglib-uri>
+        <taglib-location>/WEB-INF/tld/struts-logic.tld</taglib-location>
+    </taglib>
+    
+    <taglib>
+        <taglib-uri>/WEB-INF/tld/struts-html.tld</taglib-uri>
+        <taglib-location>/WEB-INF/tld/struts-html.tld</taglib-location>
+    </taglib>
+    
+    <taglib>
+        <taglib-uri>/WEB-INF/tld/struts-bean.tld</taglib-uri>
+        <taglib-location>/WEB-INF/tld/struts-bean.tld</taglib-location>
+    </taglib>
+	
+	<taglib>
+        <taglib-uri>/WEB-INF/tld/osde.tld</taglib-uri>
+        <taglib-location>/WEB-INF/tld/osde.tld</taglib-location>
+    </taglib>
+    </jsp-config>
+        
+</web-app>

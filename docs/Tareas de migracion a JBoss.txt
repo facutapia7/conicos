@@ -1,0 +1,23 @@
+En el contexto del proyecto de migración de aplicaciones legacy a JBoss se realizaron las siguientes tareas:
+
+* Se cambio el sistema de build a Maven 2	
+* Se unificaron los nombres de las librerías de las que dependía
+* Se borarron las librerías del directorio WEB-INF/lib y ahora se bajan de acuerdo a la configuración del POM
+* Se quitó la configuración del log4j. De ahora en más se configura en el server.
+* Se quitó la configuración del server Resign (resign.conf).
+* Se migró al framework de osde versión 1.6
+	- Se cambiaron los nombres de las clases de que hacian referencia a la versión 2 de Hibernate para referenciar a las de Hibernate 3.0 (datasource, hibernate.properties)
+* Se cambió la nomenclatura de nombres de los recursos jndi de la as400 a java:jdbc/aficron para que sea compatibles con JBoss
+* Se configuró el punto de acceso a la aplicación
+* Se agregó soporte multi-ambiente
+* Se hicieron los siguientes cambios en las siguientes librerías:
+	- Hibernate 2.0 → 3.0
+	- Struts 1.0 → 1.1
+	- commons-lang 2.0 → 2.1
+	- Oscache 2.1 → 2.1.1
+	- commons-validator 1.1.3 → 1.1.4
+	- commons-logging xx → 1.0.4
+	- axis xx -> 1.1
+	- displaytag xx -> 1.0
+	- se eliminó la dependencia con jdbcappender, junit, log4j, xalan, jaxrpc, saaj, xerces, xercesImpl
+

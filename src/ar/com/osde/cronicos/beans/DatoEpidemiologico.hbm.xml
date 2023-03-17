@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.cronicos.beans.DatoEpidemiologico" table="FARLIBDTA.MEDMEP00" mutable="false">
+		 <cache usage="read-only"/>
+		<id name="codigo" unsaved-value="0" >
+			<column name="CODEPI" not-null="true"/>
+			<generator class="identity"/>
+		</id>
+		
+		<property name="descripcion">
+			<column name="DESEPI"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

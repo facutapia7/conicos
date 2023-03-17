@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Object Mapping DTD Version 1.0//EN" "http://castor.exolab.org/mapping.dtd">
+
+<mapping>
+  <description>A mapping file for our Config application</description>
+
+  <class name="ar.com.osde.cronicos.beans.AfiliadoBusquedaBCR">
+
+    <map-to xml="ODATAFI"/>
+
+    <field name="Partner" type="string">
+      <bind-xml name="PARTNER" node="element"/>
+    </field>
+
+    <field name="Apellido" type="string">
+      <bind-xml name="APELLIDO" node="element"/>
+    </field>
+
+    <field name="Nombre" type="string">
+      <bind-xml name="NOMBRE" node="element"/>
+    </field>
+
+    <field name="DocType" type="string">
+      <bind-xml name="DOCTYPE" node="element"/>
+    </field>
+
+    <field name="DocNum" type="string">
+      <bind-xml name="DOCNUM" node="element"/>
+    </field>
+
+    <field name="NumeroSocio" type="string">
+      <bind-xml name="NUMEROSOCIO" node="element"/>
+    </field>
+
+    <field name="NroOrden" type="string">
+      <bind-xml name="NROORDEN" node="element"/>
+    </field>
+
+  </class>
+
+</mapping>

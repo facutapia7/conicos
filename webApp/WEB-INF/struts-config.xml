@@ -1,0 +1,226 @@
+<!DOCTYPE struts-config PUBLIC 
+      "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+      "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd" > 
+<struts-config> 
+
+	<!-- ========== Data Source Configuration =============================== -->
+    <data-sources />
+
+
+
+  	<!-- ========== Form Bean Definitions ================================== -->
+    <form-beans type="org.apache.struts.action.ActionFormBean">
+		<form-bean  dynamic="true" 
+					name="afiliadoBusquedaForm" 
+					type="org.apache.struts.validator.DynaValidatorForm">
+		    <form-property name="nombre"  			type="java.lang.String"/>
+		    <form-property name="apellido"  		type="java.lang.String"/>
+		    <form-property name="numeroDocumento" 	type="java.lang.String"/>			
+		    <form-property name="tipoDocumento"   	type="java.lang.String"/>						
+		</form-bean>			
+
+     	<form-bean	name="AfiliadoForm"
+    				type="ar.com.osde.cronicos.forms.AfiliadoForm"/>
+					
+    	<form-bean	name="IngresoDatosTramiteForm"
+    				type="ar.com.osde.cronicos.forms.IngresoDatosTramiteForm"/>
+     </form-beans>
+
+
+
+ 	<!-- ========== Global Exception Definitions ============================== -->
+    <global-exceptions>
+		<!-- CUSTOM HANDLERS -->
+
+		
+		<!-- CUSTOMIZABLE FRAMEWORK HANDLERS -->
+		<!-- BaseExceptionHandler -->
+		<exception
+			  key="framework.exception"
+			  type="ar.com.osde.framework.exception.BaseException"
+			  handler="ar.com.osde.framework.exception.handlers.BusinessExceptionHandler"
+		/>
+		
+		<!-- LoginException Handler -->		
+		<exception
+			  key="framework.exception"
+			  type="ar.com.osde.framework.security.LoginException"
+			  handler="ar.com.osde.framework.exception.handlers.LoginExceptionHandler"
+		/>
+		
+		<!-- NotLoggedIn exception -->
+		<exception
+			  key="framework.exception"             
+			  type="ar.com.osde.framework.security.NotLoggedInException"
+			  handler="ar.com.osde.framework.exception.handlers.NotLoggedInExceptionHandler"
+		/>
+		
+		<!-- NotEnoughPermissons exception -->
+		<exception
+			  key="framework.exception"
+			  type="ar.com.osde.framework.security.PermissionException"
+			  handler="ar.com.osde.framework.exception.handlers.NotEnoughPermissonsExceptionHandler"
+		/>
+		
+		<!-- DoubleSubmit exception -->
+		<exception
+			  key="framework.exception"
+			  type="ar.com.osde.framework.exception.DoubleSubmitException"
+			  handler="ar.com.osde.framework.exception.handlers.DoubleSubmitExceptionHandler"
+		/>			
+
+		<!-- ConcurrencyException Handler-->
+		<exception
+			  key="framework.exception"
+			  type="ar.com.osde.framework.persistence.ConcurrencyException"
+			  handler="ar.com.osde.cronicos.exceptions.handlers.ConcurrencyExceptionHandler"
+		/>			
+    </global-exceptions>
+
+
+    <!-- ========== Global Forward Definitions =============================== -->
+	<global-forwards type="org.apache.struts.action.ActionForward">
+		<!-- 	FRAMEWORK FORWARDS 		-->
+		<forward name="osde.framework.exceptionErrorForward" 
+				 path="/jsp/framework/exceptionError.jsp"/>
+		<forward name="osde.framework.baseExceptionHandlerException" 
+				 path="/jsp/framework/baseExceptionHandlerException.jsp"/>
+		<forward name="osde.framework.loginExceptionErrorForward" 
+				 path="/jsp/framework/exceptionLogin.jsp"/>				 
+		<forward name="osde.framework.doubleSubmitExceptionErrorForward" 
+				 path="/jsp/framework/exceptionDoubleSubmit.jsp"/>
+		<forward name="osde.framework.security.loginException.redirectURL" 
+				 path="http://intranet.osde/navegador/login.asp"/>				 
+		<forward name="osde.cronicos.persistance.concurrencyException.redirectURL" 
+				 path="/jsp/framework/exceptionConcurrency.jsp"/>				 
+				 
+				 
+		<!-- END OF FRAMEWORK FORWARDS	-->
+
+
+		<!-- CUSTOM FORWARDS -->
+
+		<!-- END OF CUSTOM FWDS -->
+
+	</global-forwards>
+
+
+
+    <!-- ========== Action Mapping Definitions =============================== -->
+    <action-mappings type="ar.com.osde.framework.action.BaseActionMapping">
+		
+		<!-- Ingreso al Sistema action -->
+		<action path="/ingreso"
+				type="ar.com.osde.cronicos.actions.IngresoAction"
+				scope="request">
+
+			<set-property property='login'         value='true'/>
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='false'/>
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-VIS'/>
+			
+			<forward	name="success"	  path="/jsp/cronicos/nuevoTramite.jsp"/>
+		</action>				
+
+		<!-- Ingreso de Afiliado action -->
+		<action path="/nuevoTramite"
+				type="ar.com.osde.cronicos.actions.AfiliadoAction"
+				input="/jsp/cronicos/nuevoTramite.jsp"
+				scope="request"				
+				name="AfiliadoForm">
+
+			<set-property property='login'         value='false'/>
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='false'/>			
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-VIS'/>			
+			
+			<forward	name="success" 	path="/execute/preIngresoDatosTramite"/>
+			<forward	name="failure" 	path="/jsp/cronicos/nuevoTramite.jsp"/>			
+		</action>	
+		
+		<!-- Ingreso de Datos del Tramite action -->
+		<action path="/preIngresoDatosTramite"
+				type="ar.com.osde.cronicos.actions.IngresoDatosTramiteAction"
+				scope="request" 
+				input="/jsp/cronicos/nuevoTramite.jsp"				
+				validate="false"
+				name="IngresoDatosTramiteForm">
+
+			<set-property property='login'         value='false'/>
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='false'/>			
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-VIS'/>
+			<set-property property='token'         value='create'/>						
+			<set-property property='beginAction'   value='true'/>			
+			
+			<forward	name="success"	path="/jsp/cronicos/ingresoDatosTramite.jsp"/>
+		</action>				
+		
+		<!-- Ingreso de Datos del Tramite action -->
+		<action path="/ingresoDatosTramite"
+				type="ar.com.osde.cronicos.actions.IngresoDatosTramiteAction"
+				name="IngresoDatosTramiteForm"
+				scope="request"				
+				input="/jsp/cronicos/ingresoDatosTramite.jsp">
+
+			<set-property property='login'         value='false'/>
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='true'/>			
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-ADM'/>
+			<set-property property='token'         value='verify'/>						
+			<set-property property='beginAction'   value='false'/>			
+			
+			
+			<forward	name="success"	path="/execute/ingreso"/>
+			<forward	name="failure"	path="/jsp/cronicos/ingresoDatosTramite.jsp"/>									
+		</action>			
+
+        <!-- BUSQUEDA AFILIADO BEGIN -->
+        <action path="/afiliadoBusquedaBegin"
+        	 scope="request"
+        	 type="ar.com.osde.cronicos.actions.AfiliadoBusquedaAction">
+
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='false'/>			
+			<set-property property='beginAction'   value='true'/>
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-VIS'/>
+
+            <forward name="success" path="/jsp/cronicos/afiliadoConsultaPopUp.jsp" />
+        </action>
+        <!-- END BUSQUEDA AFILIADO BEGIN -->
+
+        <!-- BUSQUEDA AFILIADO END -->
+        <action path="/afiliadoBusquedaEnd"
+        	 name="afiliadoBusquedaForm"
+        	 scope="session"
+			 input="/jsp/cronicos/afiliadoConsultaPopUp.jsp"
+        	 type="ar.com.osde.cronicos.actions.AfiliadoBusquedaAction">
+
+			<set-property property='checkLogin'    value='true'/>
+			<set-property property='transactional' value='false'/>			
+			<set-property property='permission'    value='OSGAFICRON-PUSUREC-VIS'/>
+
+            <forward name="success" path="/jsp/cronicos/afiliadoConsultaPopUp.jsp" />
+        </action>
+        <!-- END BUSQUEDA AFILIADO END -->
+		
+    </action-mappings>
+
+
+
+    <!-- ========== Controller Configuration ================================ -->
+    <controller nocache="true"/> 
+
+    
+    <!-- ========== Message Resources Definitions ============================ -->    
+	<message-resources parameter="ar.com.osde.cronicos.conf.properties.MessageResource"/> 	
+    <message-resources parameter="ar.com.osde.cronicos.conf.properties.ErrorsResource" key="errors" />
+
+    <!-- ========== Plug Ins Configuration ================================= -->
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		  <set-property property="pathnames" 
+			value="./WEB-INF/validator-rules.xml, ./WEB-INF/validation.xml"/>
+	</plug-in>
+
+    
+</struts-config>

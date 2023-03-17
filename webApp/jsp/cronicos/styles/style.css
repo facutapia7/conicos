@@ -1,0 +1,36 @@
+.version {
+	FONT-SIZE: 8pt; COLOR: #104a7b; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tazul2c {
+	FONT-SIZE: 8pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tBotonAzul {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 12px; BACKGROUND: #d6e7ef; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+#TablesGrises {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 95%; PADDING-TOP: 0px
+}
+#TablesGrises TD {
+	FONT-SIZE: 12px; COLOR: #003c80; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+#TablesGrises2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#TablesGrises3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; margin-right: 3px ;WIDTH: 99%; PADDING-TOP: 0px
+}
+#TablesGrises3 TD {
+	FONT-SIZE: 12px; COLOR: #003c80; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+#TablesGrises2 TD {
+	FONT-SIZE: 12px; COLOR: #b4b4b4; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+#TablesTitulosGrises TD {
+	FONT-WEIGHT: bold; COLOR: #0040a0; BACKGROUND-COLOR: #d0d0d0
+}
+.FilaImpar {
+	FONT-SIZE: 12px;
+	COLOR: #003c80;
+	FONT-FAMILY: Arial,Verdana;
+	BACKGROUND-COLOR: #FFFFFF;
+}

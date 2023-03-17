@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.cronicos.beans.GatewayCRM" table="FARLIBDTA.MEDCRM00">
+		<id name="nrobp" unsaved-value="0" >
+			<column name="CODIBP" not-null="true"/>
+			<generator class="assigned"/>
+		</id>
+		
+		<property name="marca">
+			<column name="MARCRO"/>
+		</property>
+		
+		<property name="estado">
+			<column name="MAREST"/>
+		</property>
+		
+		<property name="fecha">
+			<column name="FECHRE"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

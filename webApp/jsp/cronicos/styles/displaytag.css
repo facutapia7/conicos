@@ -1,0 +1,104 @@
+/* displaytag  	border: 1px solid #000000; */
+table.list {
+	margin: 1px;
+	margin-top: 1px;
+	width: 100%;
+	padding: 1px;
+}
+
+table.list td {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003c5a; 
+}
+
+table.list th {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #404040; 
+	background-color: #b6cee7; 
+	padding-right: 3px; 
+	padding-left: 3px
+}
+
+table.list th a, table.list th a:visited {
+	background-color: transparent;
+	color: #3262D1;
+	text-decoration: none;
+}
+
+/*	border-top: 1px solid #C0C0C0; */
+table.list tr.odd {
+	background: #003c5a;
+	color: #000000;
+	vertical-align: top;
+	background-color: #f1f8fe;
+}
+
+table.list tr.odd.baja {
+	background-color: #bed8f8;
+}
+
+table.list tr.even {
+	background: transparent;
+	color: #000000;
+	vertical-align: top;
+	background-color: #f1f8fe;
+}
+
+table.list tr.even.baja {
+	background-color: #bed8f8;
+}
+
+/* highlight table row onmouseover */
+table.list tr.over {
+	background: #FFFF40;
+	border-bottom: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+	color: #000000;
+	cursor: pointer;
+	cursor: hand; /* IE 5.5 non-compliant workaround */
+}
+.first {
+	background: url('../images/first.gif');
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3262D1;
+	text-decoration: none;
+} 	
+
+.last {
+	background: url('../images/last.gif');
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3262D1;
+	text-decoration: none;	
+}
+.prev {
+	background: url('../images/ico_senial2.gif');
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3262D1;
+	text-decoration: none;	
+}
+.next {
+	background: url('../images/ico_senial1.gif');
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3262D1;
+	text-decoration: none;	
+}
+.disabledButton {
+	background: url('../images/disabled.gif');
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3262D1;
+	text-decoration: none;	
+}
+/* end displaytag */

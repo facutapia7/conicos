@@ -1,0 +1,108 @@
+img   {
+	border: 0
+}
+
+.info { 
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #666666; 
+	font-weight: bold; 
+	padding-top: 3px; 
+	padding-left: 8px
+} 
+.data { 
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #666666; 
+	font-weight: normal; 
+	padding-top: 3px; 
+	padding-left: 5px; 
+	padding-bottom: 3px; 
+	padding-right: 3px
+}
+.tabla { 
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #666666; 
+	font-weight: bold; 
+	padding-top: 2px; 
+	padding-left: 5px ; 
+	padding-bottom: 2px; 
+	padding-right: 5px
+} 
+.hora { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #FFFFFF; 
+} 
+.tahoma { 
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+} 
+.titulo { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #000066; 
+	font-weight: bold; 
+	padding-top: 3px
+} 
+.fila-par { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003c5a; 
+	background-color: #f1f8fe
+} 
+.fila-impar { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	color: #003c5a;
+	background-color: #FFFFFF
+} 
+.tabla-titulos { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #404040; 
+	background-color: #b6cee7; 
+	padding-right: 3px; 
+	padding-left: 3px
+}
+.tabla-titulos2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #404040; 
+	background-color: #b6cee7; 
+	padding-right: 3px; 
+	padding-left: 3px
+} 
+.boton {  
+	font-family: tahoma, sans; 
+	font-size: 12px; 
+	color: #000066; 
+	background-color: #d6e7ef; 
+	cursor: hand
+}
+.textbox {
+	font-family:tahoma,sans-serif;
+	font-size:12px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #104A7B;
+	border-right: 1px solid #104A7B;
+	border-left: 1px solid #AFC4D5;
+	border-top:1px solid #AFC4D5;
+	color:#000066;
+	text-decoration:none;
+}
+
+.textbox {
+	font-family:tahoma,sans-serif;
+	font-size:12px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #104A7B;
+	border-right: 1px solid #104A7B;
+	border-left: 1px solid #AFC4D5;
+	border-top:1px solid #AFC4D5;
+	color:#000066;
+	text-decoration:none;
+}

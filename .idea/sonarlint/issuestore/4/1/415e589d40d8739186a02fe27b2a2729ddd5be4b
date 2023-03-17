@@ -1,0 +1,133 @@
+
+cWeb:DoctypePresenceCheck1":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+Z	Web:S52541"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+F	Web:S1827Ø"+Remove this deprecated "bgcolor" attribute.(¥ŒˆÌûÿÿÿÿ
+IWeb:TableWithoutCaptionCheckà" Add a description to this table.(°¼ĞŸ
+;	Web:S5256à"%Add "<th>" headers to this "<table>".(°¼ĞŸ
+E	Web:S1827à"/Remove this deprecated "cellSpacing" attribute.(°¼ĞŸ
+E	Web:S1827à"/Remove this deprecated "cellPadding" attribute.(°¼ĞŸ
+?	Web:S1827à")Remove this deprecated "width" attribute.(°¼ĞŸ
+D	Web:S1827ã".Remove this deprecated "background" attribute.(”Ìùú
+@	Web:S1827ã"*Remove this deprecated "height" attribute.(”Ìùú
+?	Web:S1827ã")Remove this deprecated "width" attribute.(”Ìùú
+MWeb:ImgWithoutAltCheckå"%Add an "alt" attribute to this image.(†ˆº®ıÿÿÿÿ
+HWeb:ImgWithoutAltChecké"%Add an "alt" attribute to this image.(Ó›—‘
+MWeb:ImgWithoutAltCheckì"%Add an "alt" attribute to this image.(†ˆº®ıÿÿÿÿ
+?	Web:S1827ğ")Remove this deprecated "align" attribute.(¼î¸Ç
+?	Web:S1827ğ")Remove this deprecated "width" attribute.(¼î¸Ç
+D	Web:S1827ğ".Remove this deprecated "background" attribute.(¼î¸Ç
+E	Web:S1827ö"*Remove this deprecated "height" attribute.(ÓÎ†çûÿÿÿÿ
+MWeb:ImgWithoutAltCheckö"%Add an "alt" attribute to this image.(ÓÎ†çûÿÿÿÿ
+E	Web:S1827ù"*Remove this deprecated "vAlign" attribute.(îôôˆıÿÿÿÿ
+D	Web:S1827ù")Remove this deprecated "align" attribute.(îôôˆıÿÿÿÿ
+D	Web:S1827ù")Remove this deprecated "width" attribute.(îôôˆıÿÿÿÿ
+NWeb:TableWithoutCaptionCheckû" Add a description to this table.(í¡«æûÿÿÿÿ
+@	Web:S5256û"%Add "<th>" headers to this "<table>".(í¡«æûÿÿÿÿ
+J	Web:S1827û"/Remove this deprecated "cellSpacing" attribute.(í¡«æûÿÿÿÿ
+J	Web:S1827û"/Remove this deprecated "cellPadding" attribute.(í¡«æûÿÿÿÿ
+D	Web:S1827û")Remove this deprecated "width" attribute.(í¡«æûÿÿÿÿ
+?	Web:S1827ı"*Remove this deprecated "vAlign" attribute.(Îºê]
+E	Web:S1827ş"*Remove this deprecated "height" attribute.(¹µ‰ªÿÿÿÿÿ
+MWeb:ImgWithoutAltCheckÿ"%Add an "alt" attribute to this image.(õò—´ıÿÿÿÿ
+?	Web:S1827ƒ"*Remove this deprecated "vAlign" attribute.(Îºê]
+E	Web:S1827„"*Remove this deprecated "height" attribute.(¹µ‰ªÿÿÿÿÿ
+IWeb:TableWithoutCaptionCheck†" Add a description to this table.(‘Ê š
+;	Web:S5256†"%Add "<th>" headers to this "<table>".(‘Ê š
+E	Web:S1827†"/Remove this deprecated "cellSpacing" attribute.(‘Ê š
+E	Web:S1827†"/Remove this deprecated "cellPadding" attribute.(‘Ê š
+?	Web:S1827†")Remove this deprecated "width" attribute.(‘Ê š
+@	Web:S1827Š"*Remove this deprecated "height" attribute.(¡³“Š
+?	Web:S1827Š")Remove this deprecated "width" attribute.(¡³“Š
+HWeb:BoldAndItalicTagsCheckŠ"!Replace this <b> tag by <strong>.(¡³“Š
+RWeb:UnsupportedTagsInHtml5CheckŠ"&Remove this deprecated "font" element.(¡³“Š
+D	Web:S1827‹")Remove this deprecated "width" attribute.(Õ‰™Úùÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check‹"&Remove this deprecated "font" element.(Õ‰™Úùÿÿÿÿ
+D	Web:S1827")Remove this deprecated "width" attribute.(ÿıÃ½ÿÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(ÿıÃ½ÿÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(ÿıÃ½ÿÿÿÿÿ
+D	Web:S1827‘")Remove this deprecated "width" attribute.(¤É˜°úÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check‘"&Remove this deprecated "font" element.(¤É˜°úÿÿÿÿ
+D	Web:S1827’")Remove this deprecated "width" attribute.(Ü¾¤•øÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck’"!Replace this <b> tag by <strong>.(Ü¾¤•øÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check’"&Remove this deprecated "font" element.(Ü¾¤•øÿÿÿÿ
+?	Web:S1827“")Remove this deprecated "width" attribute.(³©µ
+RWeb:UnsupportedTagsInHtml5Check“"&Remove this deprecated "font" element.(³©µ
+@	Web:S1827—"*Remove this deprecated "height" attribute.(ÅÕêë
+HWeb:BoldAndItalicTagsCheck—"!Replace this <b> tag by <strong>.(ÅÕêë
+RWeb:UnsupportedTagsInHtml5Check—"&Remove this deprecated "font" element.(ÅÕêë
+WWeb:UnsupportedTagsInHtml5Check˜"&Remove this deprecated "font" element.(Êìà şÿÿÿÿ
+@	Web:S1827Ÿ"*Remove this deprecated "height" attribute.(Ì—«¡
+HWeb:BoldAndItalicTagsCheckŸ"!Replace this <b> tag by <strong>.(Ì—«¡
+RWeb:UnsupportedTagsInHtml5CheckŸ"&Remove this deprecated "font" element.(Ì—«¡
+RWeb:UnsupportedTagsInHtml5Check "&Remove this deprecated "font" element.(†‚©ÿ
+D	Web:S1827¡")Remove this deprecated "width" attribute.(ÚàÕ¬úÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck¡"!Replace this <b> tag by <strong>.(ÚàÕ¬úÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check¡"&Remove this deprecated "font" element.(ÚàÕ¬úÿÿÿÿ
+D	Web:S1827¢")Remove this deprecated "width" attribute.(Œ™¿£üÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check¢"&Remove this deprecated "font" element.(Œ™¿£üÿÿÿÿ
+?	Web:S1827£")Remove this deprecated "width" attribute.(¾õœ
+HWeb:BoldAndItalicTagsCheck£"!Replace this <b> tag by <strong>.(¾õœ
+RWeb:UnsupportedTagsInHtml5Check£"&Remove this deprecated "font" element.(¾õœ
+?	Web:S1827¤")Remove this deprecated "width" attribute.(Ÿ¾¶•
+RWeb:UnsupportedTagsInHtml5Check¤"&Remove this deprecated "font" element.(Ÿ¾¶•
+@	Web:S1827¨"*Remove this deprecated "height" attribute.(µ™òë
+HWeb:BoldAndItalicTagsCheck¨"!Replace this <b> tag by <strong>.(µ™òë
+RWeb:UnsupportedTagsInHtml5Check¨"&Remove this deprecated "font" element.(µ™òë
+WWeb:UnsupportedTagsInHtml5Check©"&Remove this deprecated "font" element.(…ÈŒüÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckª"!Replace this <b> tag by <strong>.(ÉâöŒ
+RWeb:UnsupportedTagsInHtml5Checkª"&Remove this deprecated "font" element.(ÉâöŒ
+RWeb:UnsupportedTagsInHtml5Check«"&Remove this deprecated "font" element.(ÄÔÓ 
+E	Web:S1827¯"*Remove this deprecated "height" attribute.(ƒé™¿şÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck¯"!Replace this <b> tag by <strong>.(ƒé™¿şÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check¯"&Remove this deprecated "font" element.(ƒé™¿şÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check°"&Remove this deprecated "font" element.(‚ó‡Îúÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck±"!Replace this <b> tag by <strong>.(‹¾‰ò
+RWeb:UnsupportedTagsInHtml5Check±"&Remove this deprecated "font" element.(‹¾‰ò
+RWeb:UnsupportedTagsInHtml5Check²"&Remove this deprecated "font" element.(ÿœú˜
+E	Web:S1827¶"*Remove this deprecated "height" attribute.(áøöúÿÿÿÿ
+MWeb:BoldAndItalicTagsCheck¶"!Replace this <b> tag by <strong>.(áøöúÿÿÿÿ
+WWeb:UnsupportedTagsInHtml5Check¶"&Remove this deprecated "font" element.(áøöúÿÿÿÿ
+QWeb:UnsupportedTagsInHtml5Check·"&Remove this deprecated "font" element.(ù¥Ò
+?	Web:S1827Ñ"*Remove this deprecated "vAlign" attribute.(Îºê]
+E	Web:S1827Ò"*Remove this deprecated "height" attribute.(¹µ‰ªÿÿÿÿÿ
+HWeb:ImgWithoutAltCheckÓ"%Add an "alt" attribute to this image.(¤†ŒÌ
+@	Web:S1827Ø"*Remove this deprecated "height" attribute.(ŒÛü«
+IWeb:TableWithoutCaptionCheckİ" Add a description to this table.(ìŞ§Ö
+;	Web:S5256İ"%Add "<th>" headers to this "<table>".(ìŞ§Ö
+E	Web:S1827İ"/Remove this deprecated "cellSpacing" attribute.(ìŞ§Ö
+E	Web:S1827İ"/Remove this deprecated "cellPadding" attribute.(ìŞ§Ö
+?	Web:S1827İ")Remove this deprecated "width" attribute.(ìŞ§Ö
+D	Web:S1827ë")Remove this deprecated "width" attribute.(ú Ã€üÿÿÿÿ
+E	Web:S1827ë"*Remove this deprecated "height" attribute.(ú Ã€üÿÿÿÿ
+E	Web:S1827ò"*Remove this deprecated "height" attribute.(Ÿ†÷øÿÿÿÿ
+@	Web:S1827ú"*Remove this deprecated "height" attribute.(ÛÒü‚
+?	Web:S1827ú")Remove this deprecated "align" attribute.(ÛÒü‚
+@	Web:S1827—"*Remove this deprecated "height" attribute.(ŒÛü«
+?	Web:S1827™"*Remove this deprecated "vAlign" attribute.(Îºê]
+E	Web:S1827š"*Remove this deprecated "height" attribute.(¹µ‰ªÿÿÿÿÿ
+HWeb:ImgWithoutAltCheck›"%Add an "alt" attribute to this image.(¤†ŒÌ
+@	Web:S1827 "*Remove this deprecated "height" attribute.(ŒÛü«
+IWeb:TableWithoutCaptionCheck¥" Add a description to this table.(Õ«÷Ÿ
+;	Web:S5256¥"%Add "<th>" headers to this "<table>".(Õ«÷Ÿ
+E	Web:S1827¥"/Remove this deprecated "cellSpacing" attribute.(Õ«÷Ÿ
+E	Web:S1827¥"/Remove this deprecated "cellPadding" attribute.(Õ«÷Ÿ
+@	Web:S1827°"*Remove this deprecated "noWrap" attribute.(Î²°Â
+?	Web:S1827°")Remove this deprecated "width" attribute.(Î²°Â
+@	Web:S1827°"*Remove this deprecated "height" attribute.(Î²°Â
+D	Web:S1827¼")Remove this deprecated "width" attribute.(êÊ¡Øøÿÿÿÿ
+E	Web:S1827¼"*Remove this deprecated "height" attribute.(êÊ¡Øøÿÿÿÿ
+E	Web:S1827¼"*Remove this deprecated "nowrap" attribute.(êÊ¡Øøÿÿÿÿ
+@	Web:S1827Ö"*Remove this deprecated "height" attribute.(ŒÛü«
+?	Web:S1827Ø"*Remove this deprecated "vAlign" attribute.(Îºê]
+E	Web:S1827Ù"*Remove this deprecated "height" attribute.(¹µ‰ªÿÿÿÿÿ
+MWeb:ImgWithoutAltCheckÚ"%Add an "alt" attribute to this image.(’Â¾Ìøÿÿÿÿ
+?	Web:S1827ß")Remove this deprecated "width" attribute.(ó°ïÊ
+@	Web:S1827ß"*Remove this deprecated "height" attribute.(ó°ïÊ
+@	Web:S1827æ"*Remove this deprecated "height" attribute.(ƒßÈƒ
+IWeb:BoldAndItalicTagsCheckç"Replace this <I> tag by <em>.(¥ì§¨ıÿÿÿÿ
+E	Web:S1827ö"*Remove this deprecated "height" attribute.(ıÕÊÛüÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck÷"Replace this <I> tag by <em>.(‘ş¼¤
+@	Web:S1827"*Remove this deprecated "height" attribute.(İãøÏ
+@	Web:S1827œ"*Remove this deprecated "height" attribute.(Á‚‹ 
+D	Web:S1827¶")Remove this deprecated "align" attribute.(“éÒÑúÿÿÿÿ
+E	Web:S1827¶"*Remove this deprecated "height" attribute.(“éÒÑúÿÿÿÿ

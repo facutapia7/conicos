@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.cronicos.beans.Tramite" table="FARLIBDTA.MEDTTE00">
+		
+		<id name="codigo" unsaved-value="null" >
+			<column name="IDTRAM" not-null="true"/>
+			<generator class="increment" />
+		</id>
+		
+		<property name="fechaCarga">
+			<column name="FECHTR" not-null="true"/>
+		</property>
+		
+		
+		<property name="usuario">
+			<column name="ISUSUA" not-null="true"/>
+		</property>
+		
+		
+		<property name="filial">
+			<column name="CODFIL" not-null="true"/>
+		</property>
+		
+		
+		<property name="capReceptor">
+			<column name="CODCAP" not-null="true"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

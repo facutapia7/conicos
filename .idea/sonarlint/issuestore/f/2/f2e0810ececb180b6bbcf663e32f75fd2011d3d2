@@ -1,0 +1,37 @@
+
+cWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+E	Web:S1827"+Remove this deprecated "bgcolor" attribute.(¥ŒˆÌûÿÿÿÿ
+HWeb:TableWithoutCaptionCheck=" Add a description to this table.(°¼ĞŸ
+:	Web:S5256="%Add "<th>" headers to this "<table>".(°¼ĞŸ
+D	Web:S1827="/Remove this deprecated "cellSpacing" attribute.(°¼ĞŸ
+D	Web:S1827="/Remove this deprecated "cellPadding" attribute.(°¼ĞŸ
+>	Web:S1827=")Remove this deprecated "width" attribute.(°¼ĞŸ
+C	Web:S1827@".Remove this deprecated "background" attribute.(”Ìùú
+?	Web:S1827@"*Remove this deprecated "height" attribute.(”Ìùú
+>	Web:S1827@")Remove this deprecated "width" attribute.(”Ìùú
+LWeb:ImgWithoutAltCheckB"%Add an "alt" attribute to this image.(†ˆº®ıÿÿÿÿ
+GWeb:ImgWithoutAltCheckE"%Add an "alt" attribute to this image.(Ó›—‘
+>	Web:S1827H")Remove this deprecated "align" attribute.(¼î¸Ç
+>	Web:S1827H")Remove this deprecated "width" attribute.(¼î¸Ç
+C	Web:S1827H".Remove this deprecated "background" attribute.(¼î¸Ç
+D	Web:S1827N"*Remove this deprecated "height" attribute.(ÓÎ†çûÿÿÿÿ
+LWeb:ImgWithoutAltCheckN"%Add an "alt" attribute to this image.(ÓÎ†çûÿÿÿÿ
+D	Web:S1827Q"*Remove this deprecated "vAlign" attribute.(ÊÃØĞıÿÿÿÿ
+C	Web:S1827Q")Remove this deprecated "align" attribute.(ÊÃØĞıÿÿÿÿ
+C	Web:S1827Q")Remove this deprecated "width" attribute.(ÊÃØĞıÿÿÿÿ
+MWeb:TableWithoutCaptionCheckS" Add a description to this table.(í¡«æûÿÿÿÿ
+?	Web:S5256S"%Add "<th>" headers to this "<table>".(í¡«æûÿÿÿÿ
+I	Web:S1827S"/Remove this deprecated "cellSpacing" attribute.(í¡«æûÿÿÿÿ
+I	Web:S1827S"/Remove this deprecated "cellPadding" attribute.(í¡«æûÿÿÿÿ
+C	Web:S1827S")Remove this deprecated "width" attribute.(í¡«æûÿÿÿÿ
+>	Web:S1827V"*Remove this deprecated "vAlign" attribute.(Îºê]
+>	Web:S1827W"*Remove this deprecated "height" attribute.(ôâš"
+FWeb:ImgWithoutAltCheckW"%Add an "alt" attribute to this image.(ôâš"
+>	Web:S1827]")Remove this deprecated "width" attribute.(Ğ¥û«
+C	Web:S1827^")Remove this deprecated "width" attribute.(ÎÏ©„üÿÿÿÿ
+C	Web:S1827t")Remove this deprecated "align" attribute.(—ÔîÍıÿÿÿÿ
+>	Web:S1827|")Remove this deprecated "align" attribute.(¢Í¦’
+CWeb:BoldAndItalicTagsCheck|"Replace this <I> tag by <em>.(¢Í¦’
+D	Web:S1827€")Remove this deprecated "align" attribute.(“éÒÑúÿÿÿÿ
+E	Web:S1827€"*Remove this deprecated "height" attribute.(“éÒÑúÿÿÿÿ

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="org.highsource.repository.maven2.releases" />
+      <option name="name" value="org.highsource.repository.maven2.releases" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="crowdarRepo" />
+      <option name="name" value="crowdar-repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="redhat-all-repository" />
+      <option name="name" value="Red Hat Tech Preview repository (all)" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="servicios-releases" />
+      <option name="name" value="servicios-releases" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="m2proxy.atlassian.com" />
+      <option name="name" value="m2proxy.atlassian.com" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aplicaciones-releases" />
+      <option name="name" value="aplicaciones-releases" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-community-repository" />
+      <option name="name" value="jboss-community-repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aplicaciones-snapshots" />
+      <option name="name" value="aplicaciones-snapshots" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="componentes-releases" />
+      <option name="name" value="componentes-releases" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jasperreports" />
+      <option name="name" value="jasperreports" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="componentes-snapshots" />
+      <option name="name" value="componentes-snapshots" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-ga-repository" />
+      <option name="name" value="jboss-ga-repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jbosstools-experiments" />
+      <option name="name" value="jbosstools-experiments" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-earlyaccess-repository" />
+      <option name="name" value="jboss-earlyaccess-repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots.jboss.org" />
+      <option name="name" value="snapshots.jboss.org" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots" />
+      <option name="name" value="apache.snapshots" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-releases" />
+      <option name="name" value="jboss-releases" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="servicios-snapshots" />
+      <option name="name" value="servicios-snapshots" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="JBOSS" />
+      <option name="name" value="JBoss Repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-snapshots-repository" />
+      <option name="name" value="jboss-snapshots-repository" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repository.jboss.org" />
+      <option name="name" value="repository.jboss.org" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="metasfresh-repo" />
+      <option name="name" value="metasfresh-repo" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="redhat-techpreview-all-repository" />
+      <option name="name" value="Red Hat Tech Preview repository (all)" />
+      <option name="url" value="http://repoversiones.osde.ar:8180/repository/osde-repositorios/" />
+    </remote-repository>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ar.com.osde.patologiaService.common.entities.Patologia" table="FARLIBDTA.MEDMPA00" mutable="false">
+
+		<id name="codigo" unsaved-value="0" type="string">
+			<column name="CODPAT" not-null="true" />
+			<generator class="native" />
+		</id>
+
+		<property name="descripcion">
+			<column name="DESPAT" />
+		</property>
+		<property name="vigDesde">
+			<column name="DESFEC" />
+		</property>
+		<property name="vigHasta">
+			<column name="HASFEC" />
+		</property>
+
+
+	</class>
+</hibernate-mapping>
